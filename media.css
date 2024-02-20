@@ -1,0 +1,123 @@
+
+  @media screen and (min-width: 601px) {
+    #desktop-nav {
+      display: flex;
+    }
+    #hamburger-nav {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+
+    }
+    .main{
+      flex-direction: column;
+    }
+    .main img{
+      width: 300px;
+      height: auto;
+    }
+    .about-text h2{
+      text-align: center;
+      margin-top: 50px;
+    }
+    .about-text h5{
+      text-align: center;
+    }
+    .about-text p{
+      text-align: center;
+      margin: 40px 50px;
+    }
+    .about .button{
+      align-items: center;
+      margin: 0px 200px;
+      margin-top: 30px;
+    }
+    .box{
+    flex-direction: column;
+    }
+    .title h2{
+      text-align: left;
+      margin-left: 30px;
+    }
+    footer p:nth-child(2){
+      
+      font-size: 15px;
+      }
+  }
+  @media screen and (max-width: 425px) {
+    .about-text p{
+      text-align: center;
+      margin: 40px 70px;
+    }
+    .title h2{
+      text-align: left;
+      margin-left: 50px;
+      font-size: 60px;
+    }
+    footer p:nth-child(2){
+      padding: 0 40px;
+      margin: 20px 0;
+      font-size: 15px;
+      }
+    .contact-me p {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-left: 90px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .about-text p{
+      text-align: center;
+      margin: 40px 100px;
+    }
+    .title h2{
+      text-align: left;
+      margin-left: 22px;
+      font-size: 60px;
+    }
+    footer p:nth-child(2){
+      padding: 0 60px;
+      margin: 20px 0;
+      font-size: 15px;
+      }
+    .contact-me p {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-left: 65px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .about-text p{
+      text-align: center;
+      margin: 40px 140px;
+    }
+    .about-text h2{
+      text-align: center;
+      margin-top: 50px;
+      font-size: 60px;
+    }
+    .title h2{
+      text-align: left;
+      margin-left: 22px;
+      font-size: 50px;
+    }
+    footer p:nth-child(2){
+      padding: 0 80px;
+      margin: 20px 0;
+      font-size: 15px;
+      }
+    .card{
+      width: 300px;
+    }
+    .contact-me p {
+      font-size: 30px;
+      margin-bottom: 25px;
+      margin-left: 45px;
+  }
+  }
